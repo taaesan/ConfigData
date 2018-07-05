@@ -3,3 +3,9 @@ eureka:
  client:
   serviceUrl:
    defaultZone: http://localhost:8010/eureka/
+
+#display color on consol
+spring:
+ output:
+  ansi:
+   enabled: always  
